@@ -139,7 +139,7 @@ input[type=radio] {
         flex-direction: column;
     }
 
-    .right-content{
+    .app-footer{
         display: block !important;
     }
 }
