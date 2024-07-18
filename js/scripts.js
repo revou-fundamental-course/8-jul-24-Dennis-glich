@@ -48,13 +48,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Determine BMI category and display corresponding result
         if (bmi < 18.50) {
-            category = 'Underweight';
+            category = 'Anda kekurangan berat badan';
             displayResult(bmi, category, true, false, false);
         } else if (bmi >= 18.50 && bmi <= 24.99) {
-            category = 'Normal (healthy weight)';
+            category = 'Anda memiliki berat badan ideal';
             displayResult(bmi, category, false, true, false);
         } else {
-            category = 'Overweight or Obesity';
+            category = 'Anda berada dalam kategori obesitas';
             displayResult(bmi, category, false, false, true);
         }
     };
